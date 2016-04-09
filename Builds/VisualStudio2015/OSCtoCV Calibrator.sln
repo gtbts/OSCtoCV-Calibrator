@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2015
+Project("{DEC9B2D5-2E49-3754-7EAE-585A82E3A8AE}") = "OSCtoCV Calibrator", "OSCtoCV Calibrator.vcxproj", "{54C9CC88-17CF-F753-A7E9-3D5CD328936A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54C9CC88-17CF-F753-A7E9-3D5CD328936A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{54C9CC88-17CF-F753-A7E9-3D5CD328936A}.Debug|Win32.Build.0 = Debug|Win32
+		{54C9CC88-17CF-F753-A7E9-3D5CD328936A}.Release|Win32.ActiveCfg = Release|Win32
+		{54C9CC88-17CF-F753-A7E9-3D5CD328936A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
