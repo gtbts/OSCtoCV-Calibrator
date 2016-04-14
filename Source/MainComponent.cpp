@@ -37,7 +37,7 @@ public:
     keyboardComponent (keyboardState, MidiKeyboardComponent::horizontalKeyboard)
     {
         addAndMakeVisible (startCalibrationButton);
-        startCalibrationButton.setButtonText ("Caribration Start");
+        startCalibrationButton.setButtonText ("Start Caribration");
         startCalibrationButton.addListener (this);
         
         addAndMakeVisible (oscStatusLabel);
@@ -113,7 +113,7 @@ public:
         deviceSetup.bufferSize = BUF_SIZE;
         
         setOpaque (true);
-        setAudioChannels (2, 0);
+        setAudioChannels (1, 0);
         
         // Create pitch detect object
         inputBuf = new_fvec(HOP_SIZE);
@@ -127,8 +127,6 @@ public:
         startCalibration = false;
         
         startTimer (2); // start TimerCallback;
-        
-        setAudioChannels (1, 0);
     }
     
     ~MainContentComponent()
@@ -265,7 +263,7 @@ public:
                 
             } else if (!startCalibration) {
                 
-                startCalibrationButton.setButtonText ("Caribration Stop");
+                startCalibrationButton.setButtonText ("Stop Caribration");
                 oscStatusLabel.setText ("Calibrationing", dontSendNotification);
                 
                 noteIdx = currentFloatValue = currentIntValue = 0;
@@ -275,7 +273,7 @@ public:
                 
                 noteIdx = currentFloatValue = currentIntValue = 0;
                 startCalibration = false;
-                startCalibrationButton.setButtonText ("Caribration Start");
+                startCalibrationButton.setButtonText ("Start Caribration");
                 oscStatusLabel.setText ("OSCtoCV Calibrator", dontSendNotification);
                 return;
             }
@@ -348,7 +346,7 @@ public:
             
             if (noteIdx == 128 || currentIntValue > maxIntText.getIntValue())
             {
-                oscStatusLabel.setText ("Calibration End", dontSendNotification);
+                oscStatusLabel.setText ("Calibration complete", dontSendNotification);
                 startCalibration = false;
             }
             
@@ -360,7 +358,7 @@ public:
             if (noteIdx == 128 || currentFloatValue > 1.0f)
             {
                 
-                oscStatusLabel.setText ("Calibration End", dontSendNotification);
+                oscStatusLabel.setText ("Calibration complete", dontSendNotification);
                 startCalibration = false;
             }
         }
