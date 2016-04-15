@@ -22,11 +22,11 @@ By default, value type sent to target is **float** __0.0f ~ 1.0f__, if the **Int
 ---
 1. Conncet **[OSCtoCV Converter ](https://developer.mbed.org/users/casiotone401/code/OSCtoCVConverter/)** CV out to the VCO's CV input and VCO's audio out to your audio interface audio input (ch.1).
 
-+ The frequency counter in the middle of the plug-in indicate current VCO pitch and adjust frequency roughly 8Hz (MIDI C-0 8.1757989156Hz) by using VCO's tune knob.
+2 The frequency counter in the middle of the plug-in indicate current VCO pitch and adjust frequency roughly 8Hz (MIDI C-0 8.1757989156Hz) by using VCO's tune knob.
 
-+ Click the **Start Calibration** button to start calibration, when the start calibration, status text box indicates **MIDI :: (currently stored MIDI note number)   OSC :: (current OSC value)** and when finished, indicate **Calibration complete**.
+3 Click the **Start Calibration** button to start calibration, when the start calibration, status text box indicates **MIDI :: (currently stored MIDI note number)   OSC :: (current OSC value)** and when finished, indicate **Calibration complete**.
 
-+ When calibration successfully completed, you can check the calibration state by using a MIDI keyboard.
+4 When calibration successfully completed, you can check the calibration state by using a MIDI keyboard.
 
 ### Save Calibration Data
 
@@ -37,6 +37,7 @@ The **Save Calibration Data** button is save a **_calibration data_** to text fi
 
 ---
 + **[The JUCE cross-platform C++ framework](https://www.juce.com/)**.
++ **[aubio, a library for audio labelling](http://aubio.org/)**
 
 ### License
 
