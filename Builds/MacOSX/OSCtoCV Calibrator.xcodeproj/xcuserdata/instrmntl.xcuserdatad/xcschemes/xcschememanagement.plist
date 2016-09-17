@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>OSCtoCV Calibrator.xcscheme</key>
+		<key>OSCtoCV Calibrator (App).xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>7DF19F47460CDC3A17F8319B</key>
+		<key>9A0D7CFB68A86B368100E983</key>
 		<dict>
 			<key>primary</key>
 			<true/>

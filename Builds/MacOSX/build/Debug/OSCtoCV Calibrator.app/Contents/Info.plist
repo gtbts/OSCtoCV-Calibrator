@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>14F1713</string>
+	<string>14F1912</string>
+	<key>CFBundleDisplayName</key>
+	<string>OSCtoCV Calibrator</string>
 	<key>CFBundleExecutable</key>
 	<string>OSCtoCV Calibrator</string>
-	<key>CFBundleIconFile</key>
-	<string>AppIcon</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.gtbts.OSCtoCVCalibrator</string>
 	<key>CFBundleName</key>
@@ -38,8 +38,6 @@
 	<string>0721</string>
 	<key>DTXcodeBuild</key>
 	<string>7C1002</string>
-	<key>LSApplicationCategoryType</key>
-	<string>public.app-category.utilities</string>
 	<key>NSHighResolutionCapable</key>
 	<true/>
 	<key>NSHumanReadableCopyright</key>

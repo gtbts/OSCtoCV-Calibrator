@@ -2,7 +2,7 @@
 
 <JUCERPROJECT id="q03Xwc" name="OSCtoCV Calibrator" projectType="guiapp" version="1.0.0"
               bundleIdentifier="com.gtbts.OSCtoCVCalibrator" includeBinaryInAppConfig="1"
-              jucerVersion="4.1.0" companyName="gtbts">
+              jucerVersion="4.2.3" companyName="gtbts">
   <MAINGROUP id="VLBhF4" name="OSCtoCV Calibrator">
     <GROUP id="{FB370DB6-75B4-DA4D-A41C-C967F80A218F}" name="Source">
       <FILE id="ugSBIy" name="FreqMap.h" compile="0" resource="0" file="Source/FreqMap.h"/>
